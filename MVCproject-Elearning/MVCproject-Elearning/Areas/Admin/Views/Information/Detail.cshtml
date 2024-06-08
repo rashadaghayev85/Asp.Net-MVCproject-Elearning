@@ -1,0 +1,33 @@
+﻿@model InformationDetailVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<main style="margin-top: 70px; margin-left:60px;">
+
+	<div class="container">
+		<div class="card">
+			<div class="container-fliud">
+				<div class="wrapper row">
+					<div class="preview-pic tab-content">
+
+						@* <div class="tab-pane active"><img src="~/img/@Model.Image" /></div> *@
+						<i style="font-size:100px" class="@Model.Icon"></i>
+
+
+					</div>
+					<div class="details col-md-4">
+						<h2>Title</h2>
+						<h5 class="product-title">@Model.Title</h5>
+						<h2>Description</h2>
+						<p class="product-description">@Model.Description</p>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<a asp-action="Index" class="btn btn-secondary mr-2 mt-5">Back</a>
+	</div>
+</main>
+

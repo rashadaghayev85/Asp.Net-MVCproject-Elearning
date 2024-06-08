@@ -1,0 +1,66 @@
+﻿@model List<InstructorVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<main style="margin-top: 70px; margin-left:60px;">
+    <div class="container mt-5">
+        <h2 class="text-center">About</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fa-solid fa-plus"></i>
+        </a>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th>Image</th>
+                        <th>FullName</th>
+
+                        <th>Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr style="background-color:#bbb">
+
+                            <td>
+
+                                <img style="witdh:100px;height:200px;" src="~/img/@item.Image" />
+
+                            </td>
+
+                            <td>@item.FullName</td>
+                            <td>
+
+                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary text-white small">
+                                    <i class="fa-solid fa-info"></i>
+                                </a>
+
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white small">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <form class="d-inline" method="post" asp-action="Delete" asp-route-id="@item.Id">
+
+                                    <button type="submit" class="btn btn-danger text-white small">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                </form>
+                                
+                                    <a asp-action="Addsocial" asp-route-id="@item.Id" class="btn btn-info text-white small">
+                                        <i class="fa-solid fa-user-plus">Add Social</i>
+                                    </a>
+                                
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</main>

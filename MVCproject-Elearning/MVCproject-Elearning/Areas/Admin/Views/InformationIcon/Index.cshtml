@@ -1,0 +1,58 @@
+﻿@model List<InformationIconVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<main style="margin-top: 70px; margin-left:60px;">
+    <div class="container mt-5">
+        <h2 class="text-center">Information Icon</h2>
+       
+        <a asp-action="IconCreate" class="btn btn-warning">
+            <i class="fa-solid fa-plus">Icon</i>
+        </a>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th>Image</th>
+
+                        <th>Name</th>
+                        <th>Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr style="background-color:#bbb">
+
+                            <td>
+
+                                <i style="witdh:100px;height:200px;" class="@item.Name"></i>
+
+                            </td>
+
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+
+                              
+                               
+                                <form class="d-inline" method="post" asp-action="Delete" asp-route-id="@item.Id">
+
+                                    <button type="submit" class="btn btn-danger text-white small">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</main>

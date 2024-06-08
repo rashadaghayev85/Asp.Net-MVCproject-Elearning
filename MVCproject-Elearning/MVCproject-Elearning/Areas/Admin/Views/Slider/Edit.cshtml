@@ -1,0 +1,48 @@
+﻿@model SliderEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<main style="margin-top: 70px; margin-left:60px;">
+    <div class="preview col-md-6">
+
+        <div class="preview-pic tab-content">
+        </div>
+        <ul class="preview-thumbnail nav nav-tabs mx-5">
+            
+                
+               
+                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="~/img/@Model.Image" /></a></li>
+        
+        </ul>
+
+    </div>
+
+    <div class="container mt-5">
+        <form method="post" asp-action="Edit" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input asp-for="Title" class="form-control form-bg-light">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="category">Description</label>
+                <input asp-for="Description" class="form-control form-bg-light">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+          
+
+            <div class="form-group">
+                <label for="category">Images</label>
+                @* inputun attributuuna accept="image/*"(* yerine png falanda yazmaq olur) versek yalniz image qebul edecek *@
+                @* multiple atributu ile bir nece sekil secmek olur *@
+                <input class="form-control form-bg-light" multiple asp-for="NewImage">
+                <span asp-validation-for="NewImage" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary mr-2 mt-5">Submit</button>
+            <a asp-action="Index" class="btn btn-light mr-2">Cancel</a>
+        </form>
+    </div>
+
+</main>
+

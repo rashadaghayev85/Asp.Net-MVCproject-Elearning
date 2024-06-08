@@ -1,0 +1,688 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\instructor\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\instructor\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\instructor\\addsocial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\instructor\\addsocial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\models\\social.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\models\\social.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.Socials.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.InstructorSocials.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.Instructors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\informationiconcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\informationiconcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\interfaces\\iinstructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\interfaces\\iinstructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\viewmodels\\socials\\socialcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\socials\\socialcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\instructor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\instructor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\social\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\social\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\about\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\about\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\aboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\aboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\iconservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\iconservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\informationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\informationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\instructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\instructorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\socialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\socialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\interfaces\\isocialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\interfaces\\isocialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\areas\\admin\\views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\areas\\admin\\views\\instructor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\viewmodels\\instructors\\instructorcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\instructors\\instructorcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\mvcproject-elearning\\models\\instructorsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\models\\instructorsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\viewmodels\\instructors\\instructorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\instructors\\instructorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\services\\interfaces\\iinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\services\\interfaces\\iinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\viewmodels\\instructors\\instructordetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\instructors\\instructordetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\mvcproject-elearning\\mvcproject-elearning\\viewmodels\\instructors\\instructoreditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\instructors\\instructoreditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\mvcproject-elearning\\viewmodels\\abouts\\aboutcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62658014-D7CA-4086-8ECF-A3E10D647C16}|MVCproject-Elearning\\MVCproject-Elearning.csproj|solutionrelative:mvcproject-elearning\\viewmodels\\abouts\\aboutcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T07:25:23.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Social.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Models\\Social.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Models\\Social.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Models\\Social.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Models\\Social.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:51:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.InstructorSocials [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.InstructorSocials.sql",
+              "ToolTip": "dbo.InstructorSocials [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T23:47:55.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InformationIconController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\InformationIconController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\InformationIconController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\InformationIconController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\InformationIconController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:45:34.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Detail.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Detail.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Detail.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:32:17.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Instructors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.Instructors.sql",
+              "ToolTip": "dbo.Instructors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T20:59:30.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddSocial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\AddSocial.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\AddSocial.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\AddSocial.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\AddSocial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T21:18:55.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T17:54:55.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IInstructorService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\IInstructorService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\Interfaces\\IInstructorService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\IInstructorService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\Interfaces\\IInstructorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:15:04.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Socials [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/RASHAD8088_SQLEXPRESS/ElearningDb/True/SqlTable/dbo.Socials.sql",
+              "ToolTip": "dbo.Socials [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T20:59:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SocialCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Socials\\SocialCreateVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Socials\\SocialCreateVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Socials\\SocialCreateVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Socials\\SocialCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:34:38.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\InstructorController.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAADgv/4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:01:48.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Create.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:02:42.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Create.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T22:19:01.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Index.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Social\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T22:16:25.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:10:16.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SocialController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\SocialController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\SocialController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\SocialController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\SocialController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:30:09.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwKkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:13:54.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\About\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\About\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\About\\Create.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\About\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:02:59.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Migrations\\20240607221049_CreatedSocialInstructorStudentCategoryCourseTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:10:50.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:57:06.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T17:56:25.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AboutService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\AboutService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\AboutService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\AboutService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\AboutService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:55:11.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\CategoryService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:55:09.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\CourseService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\CourseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:55:07.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\InformationService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\InformationService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\InformationService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\InformationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:55:05.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ISocialService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\ISocialService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\Interfaces\\ISocialService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\ISocialService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\Interfaces\\ISocialService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:25:08.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SocialService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\SocialService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\SocialService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\SocialService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\SocialService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:26:04.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IconService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\IconService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\IconService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\IconService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\IconService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:00:25.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\SliderService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\SliderService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\SliderService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\SliderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:35:18.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InstructorService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\InstructorService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\InstructorService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\InstructorService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\InstructorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:15:43.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Program.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Program.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Program.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:28:24.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InstructorSocial.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Models\\InstructorSocial.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Models\\InstructorSocial.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Models\\InstructorSocial.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Models\\InstructorSocial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:52:11.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InstructorCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorCreateVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorCreateVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorCreateVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:04:56.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Edit.cshtml",
+              "RelativeToolTip": "MVCproject-Elearning\\Areas\\Admin\\Views\\Instructor\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T20:32:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InstructorVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:05:06.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IInformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\IInformationService.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\Services\\Interfaces\\IInformationService.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\Services\\Interfaces\\IInformationService.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\Services\\Interfaces\\IInformationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:17:03.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "InstructorDetailVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorDetailVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorDetailVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorDetailVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorDetailVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:05:26.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InstructorEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorEditVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorEditVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Instructors\\InstructorEditVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Instructors\\InstructorEditVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:05:15.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AboutCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Abouts\\AboutCreateVM.cs",
+              "RelativeDocumentMoniker": "MVCproject-Elearning\\ViewModels\\Abouts\\AboutCreateVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\ViewModels\\Abouts\\AboutCreateVM.cs",
+              "RelativeToolTip": "MVCproject-Elearning\\ViewModels\\Abouts\\AboutCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T08:23:35.24Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

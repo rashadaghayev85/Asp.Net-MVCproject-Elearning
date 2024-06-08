@@ -1,0 +1,31 @@
+﻿@model InformationEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<main style="margin-top: 58px; margin-left:60px;">
+
+    <div class="container mt-5">
+        <form method="post" asp-action="edit" enctype="multipart/form-data">
+            <div class="form-group">
+                <label class="mt-5" for="category">Title</label>
+                <span asp-validation-for="Title" class="text-danger"></span>
+                <input asp-for="Title" class="form-control form-bg-light" maxlength="100" placeholder="Title...">
+
+                <label class="mt-5" for="category">Description</label>
+                <span asp-validation-for="Description" class="text-danger"></span>
+                <input asp-for="Description" class="form-control form-bg-light" maxlength="100" placeholder="Description...">
+
+                <div class="form-group">
+                    <label for="category">Icon</label>
+                    <select asp-for="IconId" asp-items="@ViewBag.Icons" class="form-control"></select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mr-2 mt-5">Submit</button>
+            <a asp-action="Index" class="btn btn-light mr-2">Cancel</a>
+        </form>
+    </div>
+
+</main>
+
+

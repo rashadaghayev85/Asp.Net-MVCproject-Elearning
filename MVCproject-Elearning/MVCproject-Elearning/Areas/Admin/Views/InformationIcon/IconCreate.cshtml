@@ -1,0 +1,22 @@
+﻿@model InformationIconCreateVM
+@{
+    ViewData["Title"] = "IconCreate";
+}
+
+<main style="margin-top: 58px; margin-left:60px;">
+
+    <div class="container mt-5">
+        <form method="post" asp-action="IconCreate" enctype="multipart/form-data">
+            <div class="form-group">
+                <label class="mt-5" for="category">Name</label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+                <input asp-for="Name" class="form-control form-bg-light" maxlength="100" placeholder="Name...">
+
+
+            </div>
+            <button type="submit" class="btn btn-primary mr-2 mt-5">Submit</button>
+            <a asp-action="Index" class="btn btn-light mr-2">Cancel</a>
+        </form>
+    </div>
+
+</main>
