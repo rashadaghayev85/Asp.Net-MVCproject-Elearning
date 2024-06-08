@@ -15,11 +15,33 @@
             <a href="about.html" class="nav-item nav-link">About</a>
             <a href="courses.html" class="nav-item nav-link">Courses</a>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="team.html" class="dropdown-item">Our Team</a>
-                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    <a href="404.html" class="dropdown-item">404 Page</a>
+                   
+
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="team.html" class="dropdown-item">Login</a>
+                        <a href="testimonial.html" class="dropdown-item">Register</a>
+                        <a class="list-group-item">
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                <button type="submit" href="#">LogOut</button>
+                            </form>
+                        </a>
+                        @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+                        {
+                                <a asp-area="admin" asp-controller="dashboard" asp-action="index" class="dropdown-item">Admin Panel</a>
+                        }
+
+
+                    }
+                    else
+                    {
+
+                        <li class="list-group-item"><a asp-controller="account" asp-action="signup">SignUp</a></li>
+                        <li class="list-group-item"><a asp-controller="account" asp-action="signin">SignIn</a></li>
+                    }
                 </div>
             </div>
             <a href="contact.html" class="nav-item nav-link">Contact</a>

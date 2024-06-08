@@ -44,7 +44,7 @@ namespace MVCproject_Elearning.Services
 
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
-            return await _context.Categories.ToListAsync();
+            return await _context.Categories.Include(m=>m.Courses).ToListAsync();
         }
 
         public async Task<IEnumerable<Category>> GetAllPaginateAsync(int page, int take)

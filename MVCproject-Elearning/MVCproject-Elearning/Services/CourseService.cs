@@ -44,6 +44,7 @@ namespace MVCproject_Elearning.Services
         public async Task<IEnumerable<Course>> GetAllPaginateAsync(int page, int take)
         {
             return await _context.Courses.Where(m => !m.SoftDeleted).Include(m => m.CoursesImages)
+                .Include(m=>m.Instructor).Include(m => m.Category)
                                           .Skip((page - 1) * take)
                                           .Take(take)
                                           .ToListAsync();
@@ -77,8 +78,8 @@ namespace MVCproject_Elearning.Services
             {
                 Id = m.Id,
                 Name = m.Name,
-                //CategoryName = m.Category.Name,
-               // InstructorId=m.Instructor.Id,
+                CategoryName = m.Category.Name,
+                InstructorName=m.Instructor.FullName,
                 Price = m.Price,
                 Duration = m.Duration,
                 Rating = m.Rating,
