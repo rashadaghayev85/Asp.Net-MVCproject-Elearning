@@ -14,21 +14,24 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
     {
         private readonly ICourseService _courseService;
         private readonly ICategoryService _categoryService;
+        private readonly IInstructorService _instructorService;
         private readonly IWebHostEnvironment _env;
         public CourseController(ICourseService courseService,
                                   IWebHostEnvironment env,
-                                  ICategoryService categoryService)
+                                  ICategoryService categoryService,
+                                  IInstructorService instructorService)
         {
             _courseService = courseService;
             _env = env;
             _categoryService = categoryService;
+            _instructorService = instructorService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index(int page = 1)
         {
             var courses = await _courseService.GetAllPaginateAsync(page, 4);
-
+          
             var mappedDatas = _courseService.GetMappedDatas(courses);
             int totalPage = await GetPageCountAsync(4);
 
@@ -78,6 +81,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
         public async Task<IActionResult> Create()
         {
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
             return View();
 
         }
@@ -87,6 +91,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
         public async Task<IActionResult> Create(CourseCreateVM request)
         {
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
             if (!ModelState.IsValid)
             {
                 return View();

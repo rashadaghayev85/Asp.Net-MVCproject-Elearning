@@ -1,4 +1,5 @@
-﻿using MVCproject_Elearning.Models;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using MVCproject_Elearning.Models;
 using MVCproject_Elearning.ViewModels.Instructors;
 
 namespace MVCproject_Elearning.Services.Interfaces
@@ -12,6 +13,7 @@ namespace MVCproject_Elearning.Services.Interfaces
         Task<bool>ExistEmailAsync(string email);
         Task<Instructor> GetByIdAsync(int id);
         Task<Instructor> GetByIdWithSocialAsync(int id);
-        Task<bool>ExistExceptByIdAsync(int id, string email); 
+        Task<bool>ExistExceptByIdAsync(int id, string email);
+        Task<SelectList> GetAllSelectedAsync();
     }
 }

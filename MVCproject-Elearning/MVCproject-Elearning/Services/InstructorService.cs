@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using MVCproject_Elearning.Data;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services.Interfaces;
@@ -44,6 +45,11 @@ namespace MVCproject_Elearning.Services
         public async Task<IEnumerable<Instructor>> GetAllAsync()
         {
             return await _context.Instructors.Include(m=>m.InstructorSocials).ToListAsync();
+        }
+        public async Task<SelectList> GetAllSelectedAsync()
+        {
+            var instructor = await _context.Instructors.Where(m => !m.SoftDeleted).ToListAsync();
+            return new SelectList(instructor, "Id", "FullName");
         }
 
         public async Task<Instructor> GetByIdAsync(int id)

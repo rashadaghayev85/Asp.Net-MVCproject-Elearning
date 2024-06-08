@@ -2389,6 +2389,10 @@
       "PackagePath": "staticwebassets\\img\\100d7c7b-862a-4e76-8fb5-90a58d5f366a-banner-bg-2.jpg"
     },
     {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\1afc9d61-c94e-4011-8369-a8160ca55568-team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\1afc9d61-c94e-4011-8369-a8160ca55568-team-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\1ff5a636-02ea-4e0d-bb29-fe077726c3f2-blog-sm-1.jpg",
       "PackagePath": "staticwebassets\\img\\1ff5a636-02ea-4e0d-bb29-fe077726c3f2-blog-sm-1.jpg"
     },
@@ -2399,6 +2403,14 @@
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\2a8d01b9-c99f-4aff-a8ad-15a3b04a3f2c-blog-sm-3.jpg",
       "PackagePath": "staticwebassets\\img\\2a8d01b9-c99f-4aff-a8ad-15a3b04a3f2c-blog-sm-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\34eadeea-dca8-4378-988e-13c6717287ad-1afc9d61-c94e-4011-8369-a8160ca55568-team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\34eadeea-dca8-4378-988e-13c6717287ad-1afc9d61-c94e-4011-8369-a8160ca55568-team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\365d4a47-0cdf-41aa-bf3e-140cafa752a8-5ef3e757-826c-4e96-b8c1-aaff90002277-teacher-6.jpg",
+      "PackagePath": "staticwebassets\\img\\365d4a47-0cdf-41aa-bf3e-140cafa752a8-5ef3e757-826c-4e96-b8c1-aaff90002277-teacher-6.jpg"
     },
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\3f13c550-eb52-43dd-88f1-5d35c0a4aec9-blog-sm-3.jpg",
@@ -2421,6 +2433,10 @@
       "PackagePath": "staticwebassets\\img\\53ac0ca6-dc49-4faa-96c0-9201f5490c06-banner-img-1.png"
     },
     {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\5da5bc3f-7396-476c-aea6-46e0b4251d87-banner-img-1.png",
       "PackagePath": "staticwebassets\\img\\5da5bc3f-7396-476c-aea6-46e0b4251d87-banner-img-1.png"
     },
@@ -2435,6 +2451,10 @@
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\6a5f0729-6e4c-4aa9-9799-262448fb709f-blog-sm-2.jpg",
       "PackagePath": "staticwebassets\\img\\6a5f0729-6e4c-4aa9-9799-262448fb709f-blog-sm-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\71e94df3-af9e-4deb-b33c-e5faef09fecd-about.jpg",
+      "PackagePath": "staticwebassets\\img\\71e94df3-af9e-4deb-b33c-e5faef09fecd-about.jpg"
     },
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\7263f4fc-c5d8-4999-8c43-baa0affcb8d6-blog-sm-3.jpg",
@@ -2547,6 +2567,10 @@
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\fc7628a2-a557-4686-96d6-ba5e47b177cc-teacher-6.jpg",
       "PackagePath": "staticwebassets\\img\\fc7628a2-a557-4686-96d6-ba5e47b177cc-teacher-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\fe1138b7-8d91-4ecd-b04e-c5eac0500999-cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\fe1138b7-8d91-4ecd-b04e-c5eac0500999-cat-1.jpg"
     },
     {
       "Id": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\indir.png",

@@ -77,7 +77,8 @@ namespace MVCproject_Elearning.Services
             {
                 Id = m.Id,
                 Name = m.Name,
-                CategoryName = m.Category.Name,
+                //CategoryName = m.Category.Name,
+               // InstructorId=m.Instructor.Id,
                 Price = m.Price,
                 Duration = m.Duration,
                 Rating = m.Rating,
