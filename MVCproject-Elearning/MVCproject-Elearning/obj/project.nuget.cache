@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pEDwfIJmz6woZ1M/EqaNsadC662+5dBb9lHkB8W2o+ZkzLbcwzGwOBx5wMEsukKycWorjwK8aVTBmXc/M4eb1Q==",
+  "dgSpecHash": "NL6rSCIkWDS8J82Kk6iQzzY1OrFvZfDdZ9Jf0Ro/jhT2KCbhizQ02rQg+S9W2LENPxPLLgsIn9FTYjKgpuMpLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
+  "projectFilePath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rashad\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

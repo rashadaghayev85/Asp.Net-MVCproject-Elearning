@@ -11021,11 +11021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
+      "projectUniqueName": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
       "projectName": "MVCproject-Elearning",
-      "projectPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
+      "projectPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning.csproj",
       "packagesPath": "C:\\Users\\Rashad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\MVCproject-Elearning\\MVCproject-Elearning\\obj\\",
+      "outputPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rashad\\AppData\\Roaming\\NuGet\\NuGet.Config",
