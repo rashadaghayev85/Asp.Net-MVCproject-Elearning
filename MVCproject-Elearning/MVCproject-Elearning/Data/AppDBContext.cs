@@ -21,6 +21,7 @@ namespace MVCproject_Elearning.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<SocialMediaCompany> SocialMediasCompany { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
 
     }

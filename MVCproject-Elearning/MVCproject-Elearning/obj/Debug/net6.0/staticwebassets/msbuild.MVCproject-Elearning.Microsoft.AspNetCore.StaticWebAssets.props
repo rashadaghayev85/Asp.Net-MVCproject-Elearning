@@ -9712,6 +9712,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\53ac0ca6-dc49-4faa-96c0-9201f5490c06-banner-img-1.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVCproject-Elearning</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVCproject-Elearning</BasePath>
+      <RelativePath>img/559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>MVCproject-Elearning</SourceId>

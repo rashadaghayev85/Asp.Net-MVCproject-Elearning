@@ -147,7 +147,8 @@
                 <input asp-for="ConfirmPassword" placeholder="Confirm Password" />
                 <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
                 <button type="submit">Sign Up</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+               
+                <p class="message">Do you have any account? <a asp-action="SignIn">Go to Sign In</a></p>
             </form>
         </div>
     </div>

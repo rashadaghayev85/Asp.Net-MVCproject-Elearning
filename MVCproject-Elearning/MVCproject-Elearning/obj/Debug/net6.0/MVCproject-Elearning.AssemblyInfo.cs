@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCproject-Elearning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b64ea0896f760de25514bb5d3a6ca855cb5c39b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c99e4f0f8a273859ba853e9e8e941b4cbadaafd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCproject-Elearning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCproject-Elearning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sLVSJtIg6hTw0zN2nxmB3hbfmU+gvVpL6SC+Kiw31rI=",
+  "Hash": "zqbPPxYAJxQZNx4S3uBC6F83iEIwRWgWVPHtov1aAts=",
   "Source": "MVCproject-Elearning",
   "BasePath": "_content/MVCproject-Elearning",
   "Mode": "Default",
@@ -11586,6 +11586,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\53ac0ca6-dc49-4faa-96c0-9201f5490c06-banner-img-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg",
+      "SourceId": "MVCproject-Elearning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\",
+      "BasePath": "_content/MVCproject-Elearning",
+      "RelativePath": "img/559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\559a09dd-0cb9-43a1-bd71-235438875ff6-5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg"
     },
     {
       "Identity": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\5a622214-3782-4e01-974a-b9a0b99ecc56-carousel-2.jpg",

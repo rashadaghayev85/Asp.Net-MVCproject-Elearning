@@ -56,7 +56,7 @@ namespace MVCproject_Elearning.Controllers
                 return View();
             }
 
-            await _userManager.AddToRoleAsync(user, nameof(Roles.Member));
+            await _userManager.AddToRoleAsync(user, nameof(Roles.Admin));
             //   await _signInManager.SignInAsync(user, isPersistent: false);
 
             // return RedirectToAction("Index","Home");
@@ -88,7 +88,7 @@ namespace MVCproject_Elearning.Controllers
         public async Task<IActionResult> ConfirmEmail(string userId, string token)
         {
             var user = await _userManager.FindByIdAsync(userId);
-            _userManager.ConfirmEmailAsync(user, token);
+            await _userManager.ConfirmEmailAsync(user, token);
             return RedirectToAction(nameof(SignIn));
         }
 
@@ -141,18 +141,18 @@ namespace MVCproject_Elearning.Controllers
 
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> CreateRoles()
-        //{
-        //    foreach (var role in Enum.GetValues(typeof(Roles)))
-        //    {
-        //        if (!await _roleManager.RoleExistsAsync(role.ToString()))
-        //        {
-        //            await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
-        //        }
-        //    }
-        //    return Ok();
-        //}
+        [HttpGet]
+        public async Task<IActionResult> CreateRoles()
+        {
+            foreach (var role in Enum.GetValues(typeof(Roles)))
+            {
+                if (!await _roleManager.RoleExistsAsync(role.ToString()))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
+                }
+            }
+            return Ok();
+        }
 
     }
 }

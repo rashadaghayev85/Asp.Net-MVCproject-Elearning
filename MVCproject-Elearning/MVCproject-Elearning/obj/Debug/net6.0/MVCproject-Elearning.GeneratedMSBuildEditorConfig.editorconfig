@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Rashad/OneDrive/Desktop/Asp.Net-MVCproject-Elearning/MVCproject-Elearning/MVCproject-Elearning/Areas/Admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rashad/OneDrive/Desktop/Asp.Net-MVCproject-Elearning/MVCproject-Elearning/MVCproject-Elearning/Areas/Admin/Views/Course/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291cnNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -192,6 +196,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Rashad/OneDrive/Desktop/Asp.Net-MVCproject-Elearning/MVCproject-Elearning/MVCproject-Elearning/Views/Account/VerifyEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rashad/OneDrive/Desktop/Asp.Net-MVCproject-Elearning/MVCproject-Elearning/MVCproject-Elearning/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rashad/OneDrive/Desktop/Asp.Net-MVCproject-Elearning/MVCproject-Elearning/MVCproject-Elearning/Views/Home/Index.cshtml]
