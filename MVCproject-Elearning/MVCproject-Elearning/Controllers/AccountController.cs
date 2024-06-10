@@ -56,7 +56,7 @@ namespace MVCproject_Elearning.Controllers
                 return View();
             }
 
-            await _userManager.AddToRoleAsync(user, nameof(Roles.Admin));
+            await _userManager.AddToRoleAsync(user, nameof(Roles.Member));
             //   await _signInManager.SignInAsync(user, isPersistent: false);
 
             // return RedirectToAction("Index","Home");

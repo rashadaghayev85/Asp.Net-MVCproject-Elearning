@@ -56,5 +56,10 @@ namespace MVCproject_Elearning.Services
         {
             return await _context.Students.Where(m => m.Id == id).FirstOrDefaultAsync();
         }
-    }
+
+		public async Task<Student> GetByIdWithAllDatasAsync(int id)
+		{
+            return await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
+		}
+	}
 }

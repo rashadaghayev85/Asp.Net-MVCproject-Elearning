@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services;
@@ -9,6 +10,7 @@ using MVCproject_Elearning.ViewModels.Sliders;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
 	[Area("admin")]
+	[Authorize(Roles = "SuperAdmin,Admin")]
 	public class InformationController : Controller
 	{
         private readonly IWebHostEnvironment _env;
@@ -92,7 +94,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 			if (deleteInformation == null) return NotFound();
 
 
-            _informationService.DeleteAsync(deleteInformation);
+            await  _informationService.DeleteAsync(deleteInformation);
 
 
             return RedirectToAction(nameof(Index));

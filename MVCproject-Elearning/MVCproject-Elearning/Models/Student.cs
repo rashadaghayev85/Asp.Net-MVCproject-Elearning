@@ -6,5 +6,6 @@
         public string ? Biography { get; set; }
         public string Profession { get; set; }
         public string Image { get; set; }
-    }
+		
+	}
 }

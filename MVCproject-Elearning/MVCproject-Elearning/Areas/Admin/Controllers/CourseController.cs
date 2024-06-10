@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Cors.Infrastructure;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Build.Globbing;
 using MVCproject_Elearning.Helpers;
@@ -10,7 +11,8 @@ using MVCproject_Elearning.ViewModels.Courses;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class CourseController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class CourseController : Controller
     {
         private readonly ICourseService _courseService;
         private readonly ICategoryService _categoryService;
@@ -72,7 +74,9 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
                 Category = category.Name,
                 Price = existProduct.Price,
                 Duration=existProduct.Duration,
+                Instructor=existProduct.Instructor.FullName,
                 Images = images,
+                StudentCount=existProduct.CourseStudents.Count,
             };
             return View(response);
         }
@@ -173,7 +177,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             if (existProduct is null) return NotFound();
 
 
-
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
 
             List<CourseImageVM> images = new();
@@ -193,6 +197,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
                 Name = existProduct.Name,
                 Duration = existProduct.Duration,
                 Rating = existProduct.Rating,
+                InstructorId = existProduct.InstructorId,
                 // Price = existProduct.Price.ToString().Replace(",", "."),
                 Images = images,
                 CategoryId = existProduct.CategoryId,
@@ -209,10 +214,14 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int? id, CourseEditVM request)
         {
+
+
             ViewBag.categories = await _categoryService.GetAllSelectedAsync();
+            ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
+           
             if (!ModelState.IsValid)
             {
-                var product = await _courseService.GetByIdAsync((int)id);
+                var product = await _courseService.GetByIdWithAllDatasAsync((int)id);
 
                 List<CourseImageVM> imagesss = new();
 
@@ -230,7 +239,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             }
 
             if (id == null) return BadRequest();
-            var products = await _courseService.GetByIdWithCoursesImagesAsync((int)id);
+            var products = await _courseService.GetByIdWithAllDatasAsync((int)id);
             if (products == null) return NotFound();
 
 
@@ -241,7 +250,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
                 foreach (var item in request.NewImages)
                 {
                     string fileName = $"{Guid.NewGuid()}-{item.FileName}";
-                    string path = _env.GenerateFilePath("imgim", fileName);
+                    string path = _env.GenerateFilePath("img", fileName);
                     await item.SaveFileToLocalAsync(path);
                     images.Add(new CourseImage { Name = fileName });
                 }
@@ -275,7 +284,28 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 
                     await item.SaveFileToLocalAsync(newPath);
 
+
+
+
+
                     products.CoursesImages.Add(new CourseImage { Name = fileName });
+
+
+
+
+
+                    //if (request.Price is not null)
+                    //{
+                    //    product.Price = request.Price;
+                    //}
+
+
+
+
+                    //if (fileName is not null)
+                    //{
+                    //    products.ProductImages=images;
+                    //}
 
                 }
 
@@ -287,11 +317,11 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             }
             if (request.Duration is not null)
             {
-                products.Duration =(int) request.Duration;
+                products.Duration = (int)request.Duration;
             }
             if (request.Rating is not null)
             {
-                products.Duration =(int) request.Rating;
+                products.Duration = (int)request.Rating;
             }
             if (request.CategoryId != 0)
             {
@@ -300,6 +330,10 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             if (request.Price is not null)
             {
                 products.Price = decimal.Parse(request.Price);
+            }
+            if (request.InstructorId != 0)
+            {
+                products.InstructorId = request.InstructorId;
             }
 
 
@@ -310,6 +344,157 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 
             await _courseService.EditAsync();
             return RedirectToAction(nameof(Index));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   //         ViewBag.categories = await _categoryService.GetAllSelectedAsync();
+   //         ViewBag.instructor = await _instructorService.GetAllSelectedAsync();
+   //         if (!ModelState.IsValid)
+   //         {
+   //             var product = await _courseService.GetByIdAsync((int)id);
+
+   //             List<CourseImageVM> imagesss = new();
+
+   //             foreach (var item in product.CoursesImages)
+   //             {
+   //                 imagesss.Add(new CourseImageVM
+   //                 {
+   //                     Image = item.Name,
+   //                     IsMain = item.IsMain
+   //                 });
+   //             }
+
+   //             return View(new CourseEditVM { Images = imagesss });
+
+   //         }
+
+   //         if (id == null) return BadRequest();
+   //         var products = await _courseService.GetByIdWithCoursesImagesAsync((int)id);
+   //         if (products == null) return NotFound();
+
+
+   //         if (request.NewImages is not null)
+   //         {
+
+   //             List<CourseImage> images = new();
+   //             foreach (var item in request.NewImages)
+   //             {
+   //                 string fileName = $"{Guid.NewGuid()}-{item.FileName}";
+   //                 string path = _env.GenerateFilePath("imgim", fileName);
+   //                 await item.SaveFileToLocalAsync(path);
+   //                 images.Add(new CourseImage { Name = fileName });
+   //             }
+
+   //             foreach (var item in request.NewImages)
+   //             {
+
+
+   //                 if (!item.CheckFileType("image/"))
+   //                 {
+   //                     ModelState.AddModelError("NewImages", "Input can accept only image format");
+   //                     products.CoursesImages = images;
+   //                     return View(request);
+
+   //                 }
+   //                 if (!item.CheckFileSize(500))
+   //                 {
+   //                     ModelState.AddModelError("NewImages", "Image size must be max 500 KB ");
+   //                     products.CoursesImages = images;
+   //                     return View(request);
+   //                 }
+
+
+   //             }
+   //             foreach (var item in request.NewImages)
+   //             {
+   //                 string oldPath = _env.GenerateFilePath("img", item.Name);
+   //                 oldPath.DeleteFileFromLocal();
+   //                 string fileName = Guid.NewGuid().ToString() + "-" + item.FileName;
+   //                 string newPath = _env.GenerateFilePath("img", fileName);
+
+   //                 await item.SaveFileToLocalAsync(newPath);
+
+   //                 products.CoursesImages.Add(new CourseImage { Name = fileName });
+
+   //             }
+
+
+			//	if (request.Name is not null)
+			//	{
+			//		products.Name = request.Name;
+			//	}
+			//	if (request.Duration is not null)
+			//	{
+			//		products.Duration = (int)request.Duration;
+			//	}
+			//	if (request.Rating is not null)
+			//	{
+			//		products.Duration = (int)request.Rating;
+			//	}
+			//	if (request.CategoryId != 0)
+			//	{
+			//		products.CategoryId = request.CategoryId;
+			//	}
+			//	if (request.Price is not null)
+			//	{
+			//		products.Price = decimal.Parse(request.Price);
+			//	}
+			//	if (request.InstructorId != 0)
+			//	{
+			//		products.InstructorId = request.InstructorId;
+			//	}
+
+			//}
+
+   //         if (request.Name is not null)
+   //         {
+   //             products.Name = request.Name;
+   //         }
+   //         if (request.Duration is not null)
+   //         {
+   //             products.Duration =(int) request.Duration;
+   //         }
+   //         if (request.Rating is not null)
+   //         {
+   //             products.Duration =(int) request.Rating;
+   //         }
+   //         if (request.CategoryId != 0)
+   //         {
+   //             products.CategoryId = request.CategoryId;
+   //         }
+   //         if (request.Price is not null)
+   //         {
+   //             products.Price = decimal.Parse(request.Price);
+   //         }
+   //         if (request.InstructorId!=0)
+   //         {
+   //             products.InstructorId = request.InstructorId;
+   //         }
+
+
+
+
+
+
+
+   //         await _courseService.EditAsync();
+   //         return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> IsMain(int? id)
         {
@@ -358,5 +543,9 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             return Redirect($"/admin/course/edit/{productId}");
 
         }
+
+
+        
+       
     }
 }

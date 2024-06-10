@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services;
@@ -8,7 +9,8 @@ using MVCproject_Elearning.ViewModels;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class SocialController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class SocialController : Controller
     {
 
         private readonly ISocialService _socialService;
@@ -43,29 +45,13 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             bool existSocial = await _socialService.ExistAsync(request.Name);
             if (existSocial)
             {
-                ModelState.AddModelError("Title", "This title already exist");
+                ModelState.AddModelError("Name", "This Social already exist");
                 return View();
             }
             await _socialService.CreateAsync(new Social { Name=request.Name });
             return RedirectToAction(nameof(Index));
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id is null) return BadRequest();
-            var deleteSocial = await _socialService.GetByIdAsync((int)id);
-            if (deleteSocial is null) return NotFound();
-
-          
-
-
-            
-
-            _socialService.DeleteAsync(deleteSocial);
-            return RedirectToAction(nameof(Index));
-
-        }
+      
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {

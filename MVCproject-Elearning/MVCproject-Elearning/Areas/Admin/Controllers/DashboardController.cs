@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
         [Area("admin")]
-    public class DashboardController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class DashboardController : Controller
     {
         public IActionResult Index()
         {

@@ -9,6 +9,7 @@
 
         public string ? Biography { get; set; }
         public string? FullName { get; set; }
+        public string ? Course { get; set; }
 
 
         public string? Profession { get; set; }

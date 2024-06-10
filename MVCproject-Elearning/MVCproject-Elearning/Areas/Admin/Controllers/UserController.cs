@@ -8,8 +8,8 @@ using MVCproject_Elearning.ViewModels.Users;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    
-        public class UserController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class UserController : Controller
         {
             private readonly UserManager<AppUser> _userManager;
             private readonly RoleManager<IdentityRole> _roleManager;

@@ -16,9 +16,14 @@
                 <label class="mt-5" for="category">Profession</label>
                 <span asp-validation-for="Profession" class="text-danger"></span>
                 <input asp-for="Profession" class="form-control form-bg-light" >
+                <label class="mt-5" for="category">Course</label>
+                <span asp-validation-for="Course" class="text-danger"></span>
+                <select asp-for="Course" asp-items="@ViewBag.course" class="form-control"></select>
+                
+                
                 <label class="mt-5" for="category">Biography</label>
                 <span asp-validation-for="Biography" class="text-danger"></span>
-                <input asp-for="Biography" class="form-control form-bg-light" >
+                <textarea rows="4" cols="5" asp-for="Biography" class="form-control form-bg-light" ></textarea>
             </div>
             <button type="submit" class="btn btn-primary mr-2">Submit</button>
             <a asp-action="Index" class="btn btn-light mr-2">Cancel</a>

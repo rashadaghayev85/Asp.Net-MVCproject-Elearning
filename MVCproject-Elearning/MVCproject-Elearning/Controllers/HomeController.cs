@@ -32,16 +32,17 @@ namespace MVCproject_Elearning.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var a = await _categoryService.GetAllAsync();
+            var category = await _categoryService.GetAllAsync();
+            var courses= await _courseService.GetPopularAsync();
             HomeVM model = new()
             {
                 Informations = await _informationService.GetAllAsync(),
                 Abouts = await _aboutService.GetAllAsync(),
-                CategoryFirst = a.FirstOrDefault(),
-                CategoryLast = a.LastOrDefault(),
-                Categories = a.Skip(1).Take(2),
-                Courses= await _courseService.GetAllAsync(),    
-                Instructors=await _instructorService.GetAllAsync(), 
+                CategoryFirst = category.FirstOrDefault(),
+                CategoryLast = category.LastOrDefault(),
+                Categories = category.Skip(1).Take(2),
+                Courses= courses,
+                Instructors =await _instructorService.GetAllAsync(), 
                 Students=await _studentService.GetAllAsync(),   
                 
             };

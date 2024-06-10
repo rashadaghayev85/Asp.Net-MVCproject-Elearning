@@ -4,6 +4,10 @@ namespace MVCproject_Elearning.ViewModels
 {
     public class ContactVM
     {
-        public AppUser User { get; set; }
+        public string UserFullName { get; set; }
+        public string Email { get; set; }
+        public string Message { get; set; }
+        public string Subject { get; set; }
+
     }
 }

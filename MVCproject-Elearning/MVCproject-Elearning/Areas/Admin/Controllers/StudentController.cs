@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services;
@@ -9,16 +10,20 @@ using MVCproject_Elearning.ViewModels.Students;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class StudentController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class StudentController : Controller
     {
         private readonly IStudentService _studentService;
+        private readonly ICourseService _courseService;
         private readonly IWebHostEnvironment _env;
         public StudentController(IStudentService studentService,
 
-                                   IWebHostEnvironment env)
+                                   IWebHostEnvironment env,
+                                   ICourseService courseService)
         {
             _studentService = studentService;
             _env = env;
+            _courseService = courseService;
         }
         public async Task<IActionResult> Index()
         {
@@ -31,14 +36,19 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 
 
         [HttpGet]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.course = await _courseService.GetAllSelectedAsync();
             return View();
         }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(StudentCreateVM request)
         {
+
+            ViewBag.course = await _courseService.GetAllSelectedAsync();
             if (!ModelState.IsValid)
             {
                 return View();
@@ -62,7 +72,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 
 
            
-            await _studentService.CreateAsync(new Student { FullName = request.FullName, Profession = request.Profession, Image = fileName,Biography=request.Biography });
+            await _studentService.CreateAsync(new Student { FullName = request.FullName, Profession = request.Profession, Image = fileName,Biography=request.Biography, });
             return RedirectToAction(nameof(Index));
         }
 
@@ -90,7 +100,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
         public async Task<IActionResult> Detail(int? id)
         {
 
-            Student student = await _studentService.GetByIdAsync((int)id);
+            Student student = await _studentService.GetByIdWithAllDatasAsync((int)id);
             return View(student);
         }
 

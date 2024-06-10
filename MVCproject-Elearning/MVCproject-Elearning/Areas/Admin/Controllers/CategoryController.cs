@@ -9,7 +9,8 @@ using MVCproject_Elearning.ViewModels.Categories;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class CategoryController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
         private readonly IWebHostEnvironment _env;

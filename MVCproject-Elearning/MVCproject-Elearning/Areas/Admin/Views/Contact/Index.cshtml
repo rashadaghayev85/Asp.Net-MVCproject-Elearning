@@ -6,9 +6,7 @@
 <main style="margin-top: 70px; margin-left:60px;">
     <div class="container mt-5">
         <h2 class="text-center">Messages</h2>
-        <a asp-action="Create" class="btn btn-success">
-            <i class="fa-solid fa-plus"></i>
-        </a>
+        
 
         <div class="table-responsive">
             <table class="table">
@@ -16,7 +14,7 @@
                     <tr>
 
                         <th>From User</th>
-                        <th>Message</th>
+                        <th>Subject</th>
 
                         <th>Operations</th>
                     </tr>
@@ -31,10 +29,12 @@
 
                                 @item.UserName
                             </td>
-                            <td> @item.Message</td>
+                            <td> @item.Subject</td>
 
                             <td>
-
+                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary text-white small">
+                                    <i class="fa-solid fa-info"></i>
+                                </a>
                                
                                 <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white small">
                                     <i class="fa-solid fa-pen-to-square"></i>

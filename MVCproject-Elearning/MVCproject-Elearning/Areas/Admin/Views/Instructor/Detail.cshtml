@@ -40,12 +40,17 @@
 
                                 </td>
                                 <td class="align-middle p-4">@Model.FullName</td>
-                                <td>@Model.Email
-                                    @foreach (var item in @Model.InstructorSocials)
+                                <td>@Model.Email 
+                                    <br/>
+                                   @foreach (var item in Model.InstructorSocials)
                                     {
-                                        @item.Social
+                                        <form asp-controller="instructor" asp-action=" DeleteSocial" asp-route-id="@item.Id" enctype="multipart/form-data">
+                                        @item.SocialLink<button  >×</button> <br />
+                                        </form>
+                                        
                                     }
-                                </td>
+
+                                    </td>
                                 <td>@Model.Designation</td>
                                 <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
                             </tr>

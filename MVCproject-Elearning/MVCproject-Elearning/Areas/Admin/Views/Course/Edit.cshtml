@@ -13,12 +13,17 @@
             @foreach (var item in Model.Images)
             {
                 <form class="d-inline" method="post" asp-action="isMain" asp-route-id="@item.Id">
-                    <button class="btn btn-warning text-white btn-sm" style="@(item.IsMain?"display:none; ":"")"><i class="ti-marker"></i></button>
+                    <button class="btn btn-warning text-white btn-sm" style="@(item.IsMain?"display:none; ":"")"><i class="fa-solid fa-pen-to-square"></i></button>
                 </form>
+
+                @if (!item.IsMain)
+                {
+                    
                 <form class="d-inline" method="post" asp-action="Imagedelete" asp-route-id="@item.Id">
-                    <button type="submit" class="btn btn-danger text-white btn-sm"><i class="ti-trash"></i></button>
+                    <button type="submit" class="btn btn-danger text-white btn-sm"><i class="fa-solid fa-trash-can"></i></button>
                 </form>
-                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="~/assets/images/@item.Image" style="@(item.IsMain?"border: 2px solid #acaafd ":"")" /></a></li>
+                }
+                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="~/img/@item.Image" style="width: 100px; height50px; @(item.IsMain?"border: 2px solid #acaafd ":"")" /></a></li>
             }
         </ul>
 
@@ -49,6 +54,11 @@
             <div class="form-group">
                 <label for="category">Category</label>
                 <select asp-for="CategoryId" asp-items="@ViewBag.categories" class="form-control"></select>
+            </div>
+
+            <div class="form-group mt-5">
+                <label for="category">Instructor</label>
+                <select asp-for="InstructorId" asp-items="@ViewBag.instructor" class="form-control"></select>
             </div>
 
             <div class="form-group">

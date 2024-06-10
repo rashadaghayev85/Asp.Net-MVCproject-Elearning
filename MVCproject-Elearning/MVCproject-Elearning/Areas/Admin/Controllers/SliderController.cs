@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVCproject_Elearning.Data;
 using MVCproject_Elearning.Helpers.Extensions;
@@ -10,7 +11,8 @@ using MVCproject_Elearning.ViewModels.Sliders;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class SliderController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class SliderController : Controller
     {
         private readonly IWebHostEnvironment _env;
         private readonly ISliderService _sliderService;
@@ -110,7 +112,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var slider = await _sliderService.GetByIdAsync((int)id);
             if (slider == null) return NotFound();
-            return View(new SliderEditVM { Image = slider.Image });
+            return View(new SliderEditVM { Image = slider.Image , Title=slider.Title,Description=slider.Description });
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

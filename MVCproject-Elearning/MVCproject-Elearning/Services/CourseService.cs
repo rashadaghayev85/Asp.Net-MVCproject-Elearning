@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using MVCproject_Elearning.Data;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services.Interfaces;
@@ -59,7 +60,7 @@ namespace MVCproject_Elearning.Services
 
         public async Task<Course> GetByIdWithCoursesImagesAsync(int id)
         {
-            return await _context.Courses.Include(m => m.CoursesImages).FirstOrDefaultAsync(m => m.Id == id);
+            return await _context.Courses.Include(m => m.CoursesImages).Include(m=>m.Instructor).Include(m=>m.CourseStudents).FirstOrDefaultAsync(m => m.Id == id);
         }
 
         public async Task<int> GetCountAsync()
@@ -96,6 +97,30 @@ namespace MVCproject_Elearning.Services
         public async Task<IEnumerable<Course>> GetAllWithAllDatasAsync()
         {
             return await _context.Courses.Include(m => m.CoursesImages).ToListAsync();
+        }
+
+        public async Task<CourseImage> GetProductImageByIdAsync(int id)
+        {
+            return await _context.CourseImages.FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+        public async Task<Course> GetByIdWithAllDatasAsync(int id)
+        {
+            return await _context.Courses.Where(m => m.Id == id)
+                .Include(m => m.Category)
+                .Include(m => m.CoursesImages)
+                .FirstOrDefaultAsync();
+        }
+
+        public async Task<IEnumerable<Course>> GetPopularAsync()
+        {
+            return await _context.Courses.Include(m=>m.CoursesImages).Include(m => m.Category).Where(m=>m.Rating==5).Take(3).ToListAsync();
+        }
+
+        public async Task<SelectList> GetAllSelectedAsync()
+        {
+            var courses = await _context.Courses.Where(m => !m.SoftDeleted).ToListAsync();
+            return new SelectList(courses, "Id", "Name");
         }
     }
 }

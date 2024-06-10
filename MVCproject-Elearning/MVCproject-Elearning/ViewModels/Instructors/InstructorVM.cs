@@ -6,6 +6,7 @@ namespace MVCproject_Elearning.ViewModels.Instructors
     {
         public int Id { get; set; }
         public string FullName { get; set; }
+        public List<string> Socials { get; set; }
         public string Image { get; set; }
         public string Email { get; set; }
         public string Designation { get; set; }

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using MVCproject_Elearning.Data;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
@@ -13,7 +15,8 @@ using MVCproject_Elearning.ViewModels.Socials;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class InstructorController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class InstructorController : Controller
     {
         private readonly ICourseService _courseService;
         private readonly ICategoryService _categoryService;
@@ -61,7 +64,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             bool existInstructor = await _instructorService.ExistEmailAsync(request.Email);
             if (existInstructor)
             {
-                ModelState.AddModelError("Name", "This Instructor already exist");
+                ModelState.AddModelError("Email", "This Email already exist");
                 return View();
             }
 
@@ -141,7 +144,7 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
 
                 if (await _instructorService.ExistExceptByIdAsync((int)id, request.Email))
                 {
-                    ModelState.AddModelError("Name", "This category already exist");
+                    ModelState.AddModelError("Email", "This email already exist");
                     return View();
                 }
 
@@ -187,6 +190,11 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
                 }
 
 
+               
+
+              
+
+
 
 
 
@@ -211,7 +219,11 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             }
             else
             {
-
+                if (await _instructorService.ExistExceptByIdAsync((int)id, request.Email))
+                {
+                    ModelState.AddModelError("Email", "This email already exist");
+                    return View();
+                }
 
                 var instructor = await _instructorService.GetByIdAsync((int)id);
 
@@ -252,6 +264,24 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
            await _context.InstructorSocials.AddAsync(social); 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteSocial(int? id)
+        {
+            if (id is null) return BadRequest();
+            var social = await _socialService.GetByIdAsync((int)id);
+
+            if (social is null) return NotFound();
+            await _socialService.DeleteAsync(social);
+
+
+
+            return Redirect($"/admin/instructor/detail/{id}");
+
+
+
         }
     }
 }

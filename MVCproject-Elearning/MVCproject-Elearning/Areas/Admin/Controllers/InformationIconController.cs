@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services;
@@ -9,7 +10,8 @@ using MVCproject_Elearning.ViewModels.Informations;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class InformationIconController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class InformationIconController : Controller
     {
 
         private readonly IWebHostEnvironment _env;

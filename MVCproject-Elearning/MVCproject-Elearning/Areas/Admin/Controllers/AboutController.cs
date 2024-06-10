@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVCproject_Elearning.Helpers.Extensions;
 using MVCproject_Elearning.Models;
 using MVCproject_Elearning.Services.Interfaces;
@@ -7,7 +8,8 @@ using MVCproject_Elearning.ViewModels.Abouts;
 namespace MVCproject_Elearning.Areas.Admin.Controllers
 {
     [Area("admin")]
-    public class AboutController : Controller
+	[Authorize(Roles = "SuperAdmin,Admin")]
+	public class AboutController : Controller
     {
 
         private readonly IAboutService _aboutService;
@@ -114,7 +116,22 @@ namespace MVCproject_Elearning.Areas.Admin.Controllers
             if (id == null) return BadRequest();
             var about = await _aboutService.GetByIdAsync((int)id);
             if (about == null) return NotFound();
-            if (request.NewImage is null) return RedirectToAction(nameof(Index));
+            if (request.NewImage is null) 
+                {
+                if (request.Title is not null)
+                {
+                    about.Title = request.Title;
+                }
+                if (request.Description is not null)
+                {
+                    about.Description = request.Description;
+                }
+               
+
+                await _aboutService.EditAsync();
+                return RedirectToAction(nameof(Index));
+
+            }
 
             if (!ModelState.IsValid)
             {

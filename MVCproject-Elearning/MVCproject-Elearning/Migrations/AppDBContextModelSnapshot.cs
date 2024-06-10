@@ -304,6 +304,9 @@ namespace MVCproject_Elearning.Migrations
                     b.Property<bool>("SoftDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

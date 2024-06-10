@@ -8,7 +8,8 @@ namespace MVCproject_Elearning.Services.Interfaces
     {
         Task<IEnumerable<StudentVM>> GetAllAsync(int? take = null);
         Task<Student> GetByIdAsync(int id);
-        Task<bool> ExistAsync(string fullname);
+		Task<Student> GetByIdWithAllDatasAsync(int id);
+		Task<bool> ExistAsync(string fullname);
         Task CreateAsync(Student student);
         Task DeleteAsync(Student student);
         Task EditAsync();

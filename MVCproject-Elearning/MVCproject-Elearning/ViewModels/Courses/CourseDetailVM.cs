@@ -7,6 +7,8 @@
         public int Rating { get; set; }
         public decimal Price { get; set; }
         public string Category { get; set; }
+        public string Instructor { get; set; }
+        public int ? StudentCount { get; set; }
         public List<CourseImageVM> Images { get; set; }
     }
 }

@@ -13,5 +13,5 @@
         public List<CourseImage> CoursesImages { get; set; }
 
         public List<CourseStudent> CourseStudents { get; set; }
-    }
+	}
 }

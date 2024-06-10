@@ -1,4 +1,5 @@
-﻿using MVCproject_Elearning.Models;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using MVCproject_Elearning.Models;
 using MVCproject_Elearning.ViewModels.Courses;
 
 namespace MVCproject_Elearning.Services.Interfaces
@@ -6,6 +7,8 @@ namespace MVCproject_Elearning.Services.Interfaces
     public interface ICourseService
     {
         Task<IEnumerable<Course>> GetAllAsync();
+        Task<IEnumerable<Course>> GetPopularAsync();
+        Task<SelectList> GetAllSelectedAsync();
         Task<IEnumerable<Course>> GetAllWithAllDatasAsync();
         Task<IEnumerable<Course>> GetAllPaginateAsync(int page, int take);
         IEnumerable<CourseVM> GetMappedDatas(IEnumerable<Course> course);
@@ -18,5 +21,8 @@ namespace MVCproject_Elearning.Services.Interfaces
         Task<Course> GetByIdWithCoursesImagesAsync(int id);
         Task<CourseImage> GetCourseImageByIdAsync(int id);
         Task ImageDeleteAsync(CourseImage image);
+
+        Task<CourseImage> GetProductImageByIdAsync(int id);
+        Task<Course> GetByIdWithAllDatasAsync(int id);
     }
 }
