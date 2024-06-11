@@ -44,9 +44,9 @@
                                     <br/>
                                    @foreach (var item in Model.InstructorSocials)
                                     {
-                                        <form asp-controller="instructor" asp-action=" DeleteSocial" asp-route-id="@item.Id" enctype="multipart/form-data">
-                                        @item.SocialLink<button  >×</button> <br />
-                                        </form>
+                                       
+                                        @item.SocialLink<br/>
+                                       
                                         
                                     }
 

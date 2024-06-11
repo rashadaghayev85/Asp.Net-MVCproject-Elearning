@@ -1,0 +1,42 @@
+﻿@model Dictionary<string, string>
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<main style="margin-top: 70px; margin-left:60px;"> 
+
+
+   @*  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    @foreach (var key in Model.Keys)
+    {
+        <div class="form-group">
+            <label asp-for="@Model[key]">@key</label>
+            <input type="text" class="form-control" name="request[@key]" value="@Model[key]" />
+        </div>
+    }
+ *@
+   
+        
+    <form asp-action="Edit"  method="post">
+
+ @foreach (var item in Model)
+        {
+            
+        <label for="category">Key</label>
+        <span asp-validation-for="@item.Key" class="text-danger"></span>
+        <input disabled class="form-control form-bg-light" asp-for="@item.Key">
+        <label for="category">Value</label>
+        <span asp-validation-for="@item.Value" class="text-danger"></span>
+        <input class="form-control form-bg-light" asp-for="@item.Value" >
+        }
+
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>
+    
+
+</main>

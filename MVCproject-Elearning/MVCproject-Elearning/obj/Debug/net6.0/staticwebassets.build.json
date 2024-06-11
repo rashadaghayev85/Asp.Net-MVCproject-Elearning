@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XRwQwE7bRaY7VOoslILmAs2LALgDvky8M6kWkWsymsQ=",
+  "Hash": "u6Omuy4IqUw7NUr7n6OCJp0Z1DIhiWQ3SCestZLNJms=",
   "Source": "MVCproject-Elearning",
   "BasePath": "_content/MVCproject-Elearning",
   "Mode": "Default",
@@ -11510,6 +11510,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\1ff5a636-02ea-4e0d-bb29-fe077726c3f2-blog-sm-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\20458a79-c89c-4703-b231-eb7b82f3eb53-0da7bddd-c87f-415d-8c85-2107e516de64-9a35c9c4-4320-43e1-880e-790389cdafb2-team-3.jpg",
+      "SourceId": "MVCproject-Elearning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\",
+      "BasePath": "_content/MVCproject-Elearning",
+      "RelativePath": "img/20458a79-c89c-4703-b231-eb7b82f3eb53-0da7bddd-c87f-415d-8c85-2107e516de64-9a35c9c4-4320-43e1-880e-790389cdafb2-team-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\20458a79-c89c-4703-b231-eb7b82f3eb53-0da7bddd-c87f-415d-8c85-2107e516de64-9a35c9c4-4320-43e1-880e-790389cdafb2-team-3.jpg"
     },
     {
       "Identity": "C:\\Users\\Rashad\\OneDrive\\Desktop\\Asp.Net-MVCproject-Elearning\\MVCproject-Elearning\\MVCproject-Elearning\\wwwroot\\img\\20a94c21-ec02-44a4-adee-006789361661-banner-bg-2.jpg",
